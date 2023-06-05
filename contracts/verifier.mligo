@@ -1,8 +1,7 @@
 #include "channel.mligo"
-#include "merkle.mligo"
 #include "field.mligo"
 
-// Pre-caculated values
+// Pre-calculated values
 let num_fri_layers : int = 11  // log2(1024) + 1 
 let domain_ex_size : nat = 8192n
 // let mult_sub_gen : nat = 1855261384n  // field_gen ^ (3 * 2^30 / 1024)
