@@ -1,0 +1,12 @@
+.DS_Store
+artifacts
+.taq/*-state.json
+.taq/config.local.*.json
+node_modules/
+ligo
+__pycache__/
+.pytest_cache/
+.idea
+.ligo
+.ipynb_checkpoints
+.python-version
